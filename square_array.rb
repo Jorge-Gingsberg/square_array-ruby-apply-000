@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each {|number| number ** 2}
+  holder = []
+  array.each {|number| holder << number ** 2}
 end
